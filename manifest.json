@@ -1,0 +1,22 @@
+{
+    "name": "New Tab",
+    "description": "Open your links in a new tab just by clicking it. No need to right click anymore :D",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Easy new tab",
+        "default_icon": {
+            "19": "Actions-tab-new-icon.png",
+            "38": "Actions-tab-new-icon.png"
+        }
+    },
+    "manifest_version": 2
+}
